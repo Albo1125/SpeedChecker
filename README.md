@@ -1,5 +1,5 @@
 # SpeedChecker
-SpeedChecker is a UK-based resource for FiveM by Albo1125 that provides speed laser gun & average speed check functionality.
+SpeedChecker is a UK-based resource for FiveM by Albo1125 that provides speed laser gun & average speed check functionality. It is available at [https://github.com/Albo1125/SpeedChecker](https://github.com/Albo1125/SpeedChecker)
 
 ## Installation & Usage
 1. Download the latest release.
