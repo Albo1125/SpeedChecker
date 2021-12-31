@@ -8,11 +8,8 @@ SpeedChecker is a UK-based resource for FiveM by Albo1125 that provides speed la
 ```text
 ensure SpeedChecker
 ```
-4. Optionally, download a [weaponmarksmanpistol.meta](https://www.gta5-mods.com/weapons/driveby-marksman-pistol) that allows you to use it from within a vehicle. You can stream it by adding it as a file to the `fxmanifest.lua` and adding the following:
-```text
-data_file 'WEAPONINFO_FILE_PATCH' 'weaponmarksmanpistol.meta'
-```
-5. Optionally, download a more appropriate model to replace the default marksmanpistol. For example, the [ProLaser 4](https://www.lcpdfr.com/downloads/gta5mods/misc/18506-prolaser-4-radar-gun/)
+4. Optionally, download a [weaponmarksmanpistol.meta](https://www.gta5-mods.com/weapons/driveby-marksman-pistol) that allows you to use it from within a vehicle. Uncomment the two lines from the `fxmanifest.lua` to add it to the server.
+5. Optionally, download a more appropriate model to replace the default marksmanpistol and stream it. For example, the [ProLaser 4](https://www.lcpdfr.com/downloads/gta5mods/misc/18506-prolaser-4-radar-gun/)
 6. Optionally, customise the commands in `sv_SpeedChecker.lua`.
 7. Optionally, enable and customise the whitelist in `vars.lua`.
 
