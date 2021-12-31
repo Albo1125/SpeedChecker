@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 
 namespace SpeedChecker
 {
-    //data_file 'WEAPONINFO_FILE_PATCH' 'weaponmarksmanpistol.meta'
-
     public class SpeedChecker : BaseScript
     {
         private static WeaponAsset speedGunWeapon = new WeaponAsset(WeaponHash.MarksmanPistol);
-        
+
         private bool speedgunActive = false;
         private string speedgunInfo = "";
         private string speedInfo = "";
@@ -32,7 +30,7 @@ namespace SpeedChecker
                     if (speedgunActive)
                     {
                         Game.Player.Character.Weapons.Remove(speedhash);
-                        
+
                     }
                     else
                     {
@@ -69,7 +67,7 @@ namespace SpeedChecker
                 await Delay(0);
                 drawing();
                 speedgunActive = false;
-                
+
                 if (Game.PlayerPed.Weapons.Current.Hash == speedGunWeapon)
                 {
                     if (AverageSpeedCheck.authorized == null)
